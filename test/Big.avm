@@ -1,0 +1,10 @@
+;test
+;bigdecimal
+;
+push bigdecimal(0.00000000000000000000000000000000000000000000000000000000004611686018427387904)
+dump
+push int32(10)
+add
+assert bigdecimal(10)
+dump
+exit

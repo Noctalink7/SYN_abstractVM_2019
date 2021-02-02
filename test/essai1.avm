@@ -1,0 +1,10 @@
+push int32(5)
+push int32(10)
+dump
+push int8(48)
+dup
+assert int8(48)
+pop
+swap
+dump
+exit

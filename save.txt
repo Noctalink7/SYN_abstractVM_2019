@@ -1,0 +1,6 @@
+           else if (ln.find(' ') != std::string::npos &&
+                     match[1] != "load" &&
+                     match[1] != "assert" &&
+                     match[1] != "push" &&
+                     match[1] != "store")
+                throw Exception("Error: Bad Input");

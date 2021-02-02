@@ -1,0 +1,10 @@
+push int32(32)
+push int8(8)
+store int8(0)
+store int8(1)
+dump
+load int8(16)
+load int8(1)
+assert int32(32)
+dump
+exit

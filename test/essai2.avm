@@ -1,0 +1,6 @@
+push float(9)
+push double(3)
+div
+dump
+assert double(3)
+exit
